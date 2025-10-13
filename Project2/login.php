@@ -1,9 +1,9 @@
-<?php include('server.php') ?>
+<?php include('Project2/server.php') ?>
 <!DOCTYPE html>
 <html>
 <head>
   <title>Registration system PHP and MySQL</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="Project2/style.css">
 </head>
 <body>
   <div class="header">
@@ -24,8 +24,9 @@
   		<button type="submit" class="btn" name="login_user">Login</button>
   	</div>
   	<p>
-  		Not yet a member? <a href="register.php">Sign up</a>
+  		Not yet a member? <a href="Project2/register.php">Sign up</a>
   	</p>
   </form>
 </body>
+
 </html>
