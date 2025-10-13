@@ -11,7 +11,7 @@
   </div>
 	
   <form method="post" action="Project2/register.php">
-  	<?php include('errors.php'); ?>
+  	<?php include('Project2/errors.php'); ?>
   	<div class="input-group">
   	  <label>Username</label>
   	  <input type="text" name="username" value="<?php echo $username; ?>">
@@ -32,9 +32,10 @@
   	  <button type="submit" class="btn" name="reg_user">Register</button>
   	</div>
   	<p>
-  		Already a member? <a href="Project2/login.php">Sign in</a>
+  		Already a member? <a href="Project2/index.html">Sign in</a>
   	</p>
   </form>
 </body>
 
 </html>
+
