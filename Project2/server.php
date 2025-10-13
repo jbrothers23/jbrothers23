@@ -7,7 +7,7 @@ $email    = "";
 $errors = array(); 
 
 // connect to the database
-$db = mysqli_connect('localhost', 'root', '', 'project');
+$db = mysqli_connect('sql12.freesqldatabase.com', 'sql12802587t', 'ria8DDKtFZ', 'sql12802587');
 
 // REGISTER USER
 if (isset($_POST['reg_user'])) {
@@ -83,3 +83,4 @@ if (isset($_POST['login_user'])) {
 
 
 ?>
+
