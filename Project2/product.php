@@ -11,7 +11,7 @@ $email    = "";
 $errors = array(); 
 
 // connect to the database
-$db = mysqli_connect('phpmyadmin', 'root', '', 'project');
+$db = mysqli_connect('sql12.freesqldatabase.com', 'sql12802587', 'ria8DDKtFZ', 'sql12802587');
 
 if ($db->connect_error) {
     die("Connection failed: " . $db->connect_error);
@@ -42,4 +42,5 @@ $db->close();
 
 
 </body>
+
 </html>
