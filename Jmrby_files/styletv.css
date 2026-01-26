@@ -1,0 +1,272 @@
+body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(#06b2b8, #06b2b8 , #06b2b8, #06b2b8, #06b2b8, #06b2b8);
+      color: #a314a1 saw;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    #wrapper {
+      width: 100%;
+      max-width: 1200px;
+      text-align: center;
+    }
+
+    #title {
+      font-size: 50px;
+      font-family: Arial Black, sans-serif;
+      background: linear-gradient(to left, #f00, #ff2b00, #f50, #ff8000, #fa0, #ffd500, #ff0, #d4ff00, #af0, #80ff00, #5f0, #2bff00, #0f0, #00ff2a, #0f5, #00ff80, #0fa, #00ffd5, #0ff, #00d5ff, #0af, #0080ff, #05f, #002aff, #00f, #2b00ff, #50f, #8000ff, #a0f, #d400ff, #f0f, #ff00d4, #f0a, #ff0080, #f05, #ff002b, #f00);
+    animation: rainbow-move-left-right 10s linear infinite alternate;
+          -webkit-background-clip: text;
+          background-clip: text;
+           -webkit-text-fill-color: transparent;
+}
+@keyframes rainbow-move-left-right {
+    0% {background-position: 0 0    }
+    100% {background-position: -250px 0}
+}
+
+
+ /*<div class="animated-rainbow">Animated Rainbow Gradient</div>
+CSS
+.animated-rainbow {
+    font-size: 42px;
+
+    font-family: Arial Black, Gadget, sans-serif;
+    background: linear-gradient(to left, #f00, #ff2b00, #f50, #ff8000, #fa0, #ffd500, #ff0, #d4ff00, #af0, #80ff00, #5f0, #2bff00, #0f0, #00ff2a, #0f5, #00ff80, #0fa, #00ffd5, #0ff, #00d5ff, #0af, #0080ff, #05f, #002aff, #00f, #2b00ff, #50f, #8000ff, #a0f, #d400ff, #f0f, #ff00d4, #f0a, #ff0080, #f05, #ff002b, #f00);
+    animation: rainbow-move-left-right 5s linear infinite alternate;
+    -webkit-background-clip: text;
+    background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+@keyframes rainbow-move-left-right {
+    0% {background-position: 0 0    }
+    100% {background-position: -500px 0}
+}
+*/
+
+
+    #video-container {
+      position: relative;
+      width: 100%;
+      margin-bottom: 20px;
+      aspect-ratio: 16 / 9;
+    }
+
+    video, iframe {
+      width: 100%;
+      height: 100%;
+      border-radius: 10px;
+      box-shadow: 0 4px 50px rgba(0, 0, 0, 0.7);
+      z-index: 2;
+      position: relative;
+      display: none;
+    }
+
+    .category {
+      margin: 15pxpx 0;
+    }
+
+    .category-title {
+      font-size: 20px;
+      font-weight: bolder;
+      margin: 10px 0;
+      text-align: left;
+      padding-left: 10px;
+    }
+
+    .channel-slider-wrapper {
+      position: relative;
+      display: flex;
+      align-items: center;
+    }
+
+    .channel-slider {
+      display: flex;
+      overflow-x: auto;
+      gap: 10px;
+      padding: 5px;
+      scroll-behavior: smooth;
+      flex-grow: 1;
+    }
+
+    .channel-slider::-webkit-scrollbar {
+      height: 2px;
+    }
+
+    .channel-slider::-webkit-scrollbar-thumb {
+      background: #fc0303;
+      border-radius: 4px;
+    }
+
+   /* .arrow-button {
+      background: 0;
+      color: blue;
+      border: none;
+      padding: 15px;
+      cursor: pointer;
+      z-index: 10;
+      font-size: 24px;
+      border-radius: 50%;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    }  */
+
+
+    .arrow-button {
+      flex: 0 0 auto;
+      background: #D34A6F;
+      border-radius: 50px;
+      text-align: center;
+      padding: 15px;
+      z-index: 10;
+      cursor: pointer;
+      transition: transform 0.2s;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .arrow-button:hover {
+      transform: scale(1.05);
+    }
+
+
+
+    .arrow-left {
+      margin-right: 10px;
+    }
+
+    .arrow-right {
+      margin-left: 10px;
+    }
+
+    .channel-card {
+      flex: 0 0 auto;
+      width: 100px;
+      background: #8b8b8c;
+      border-radius: 8px;
+      text-align: center;
+      padding: 10px;
+      cursor: pointer;
+      transition: transform 0.2s;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      height: 150px;
+    }
+
+    .channel-card:hover {
+      transform: scale(1.05);
+    }
+
+    .channel-logo {
+      width: 100px;
+      height: 100px;
+      object-fit: contain;
+      border-radius: 10px;
+    }
+
+    .channel-name {
+      font-size: 13px;
+      font-weight: bold;
+      color: #000000;
+      text-align: center;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      width: 100%;
+    }
+
+    #footer {
+      margin-top: 50px;
+      font-size: 10px;
+      font-weight: bolder;
+      color: #8a0303;
+      margin-bottom: 20px;
+    }
+
+    #footer a {
+      color: #03a819;
+      text-decoration: none;
+    }
+
+    #footer a:hover {
+      text-decoration: underline;
+    }
+
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-around;
+  background-color: #10013d; /* Dark background */
+  padding: 5px;
+  border-top: 2px solid #333; /* Darker border for contrast */
+  z-index: 1000;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.nav-item {
+  color: #07ded7; /* Light gray text for better contrast */
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  flex-grow: 1;
+  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out, text-shadow 0.3s ease-in-out; /* Added text-shadow transition */
+  position: relative;
+}
+
+.nav-item i {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 5px;
+  transition: transform 0.2s cubic-bezier(0.68, -0.55, 0.27, 1.55); /* Smooth bounce effect */
+}
+
+.nav-item:hover {
+  color: #a80306; /* Change color to normal white on hover */
+  transform: scale(1.1);
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.8), 0 0 16px rgba(255, 255, 255, 0.6); /* Normal white glow effect */
+}
+
+.nav-item:hover i {
+  transform: scale(5.4); /* Enlarge the icon */
+}
+
+
+[class~="ott-player"] {
+  width: 100%;
+}
+[class~="channel-ott"] li {
+  padding-right: 7.5pt;
+}
+[class~="ott-player"] {
+  height: 100%;
+}
+[class~="ott-player"] {
+  position: absolute;
+}
+[class~="ott-player"] {
+  top: 50%;
+}
+[class~="channel-ott"] li {
+  padding-top: 7.5pt;
+}
+[class~="channel-ott"] li {
+  cursor: pointer;
+}
+[class~="ott-player"] {
+  left: 50%;
+}
+[class~="ott-player"] {
+  transform: translate(-50%, -50%);
+}
+
+
