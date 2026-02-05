@@ -376,7 +376,14 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
      },
 
 
-
+	{
+        name: 'Lotus Macau',
+        logo: 'https://i.imgur.com/5G72qjx.png',
+        type: 'hls',
+        manifestUri: 'https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/lotusmacau_prd/default/index.mpd',
+		clearKey: { '60dc692e64ea443a8fb5ac186c865a9b': '01bdbe22d59b2a4504b53adc2f606cc1' },
+        category: "Movies"
+     },
 
 
 	//Sports
