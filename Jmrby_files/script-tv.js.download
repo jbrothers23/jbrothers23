@@ -431,7 +431,7 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
         name: 'SPOTV2',
         logo: 'https://i.imgur.com/GTwZ19i.png',
         type: 'mpegdash',
-        manifestUri: 'https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_spotv2hd.mpd',
+        manifestUri: 'https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/dr_spotv2hd/default/index.mpd',
         clearKey: { '7eea72d6075245a99ee3255603d58853': '6848ef60575579bf4d415db1032153ed' },
         category: "Sports"
       },
@@ -561,6 +561,16 @@ let _0x3fc9ab=_0x4a094e[_0x568c7f];return _0x3fc9ab;},_0x568c(_0x207aa6,_0x2175f
         clearKey: { '9ce58f37576b416381b6514a809bfd8b': 'f0fbb758cdeeaddfa3eae538856b4d72' },
         category: "Kids"
       },
+
+	 {
+        name: 'Nickjr',
+        logo: 'https://vignette.wikia.nocookie.net/logaekranowe/images/4/45/1024px-Nick_Jr._logo_2009.svg.png/revision/latest?cb=20180616122202&path-prefix=pl',
+        type: 'mpegdash',
+        manifestUri: 'https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/dr_nickjr/default/index.mpd',
+        clearKey: { 'bab5c11178b646749fbae87962bf5113': '0ac679aad3b9d619ac39ad634ec76bc8' },
+        category: "Kids"
+      },
+
 
  	 {
         name: 'Animax',
